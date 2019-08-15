@@ -87,65 +87,70 @@
     </div>
   </div>
 
-  <div class="ui bottom attached segment pushable">
-    <div class="ui visible left vertical thin sidebar menu">
-      <a class="item">
-        <i class="home icon"></i>
-        Artists
-      </a>
-      <a class="item">
-        <i class="block layout icon"></i>
-        Albums
-      </a>
-      <a class="item">
-        <i class="smile icon"></i>
-        Songs
-      </a>
-      <a class="item">
-        <i class="calendar icon"></i>
-        Genres
-      </a>
-    </div>
-    <div class="pusher">
-      <div class="ui basic segment">
-        <div class="ui grid container">
-          <div class="four wide column">
-            <div class="ui card">
-              <div class="ui centered small image">
-                <img
-                  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565901676716&di=1c6b0a2d0d95b279377b1655da142872&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fent%2Fy%2Fd%2F2010-05-10%2FU1819P28T3D2953478F326DT20100510182128.jpg">
+  <div class="ui bottom attached segment">
+    <div class="ui grid">
+        <div class="four wide column">
+            <div class="ui secondary vertical pointing menu">
+                <a class="item">
+                  <i class="home icon"></i>
+                  Artists
+                </a>
+                <a class="item">
+                  <i class="block layout icon"></i>
+                  Albums
+                </a>
+                <a class="item">
+                  <i class="smile icon"></i>
+                  Songs
+                </a>
+                <a class="item">
+                  <i class="calendar icon"></i>
+                  Genres
+                </a>
               </div>
-              <div class="content">
-                <div class="header">天之大</div>
-                <div class="meta">
-                  <a>费玉清</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="four wide column">
-              <div class="ui card">
-                <div class="ui centered small image">
-                  <img
-                    src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565901676716&di=1c6b0a2d0d95b279377b1655da142872&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fent%2Fy%2Fd%2F2010-05-10%2FU1819P28T3D2953478F326DT20100510182128.jpg">
-                </div>
-                <div class="content">
-                  <div class="header">天之大</div>
-                  <div class="meta">
-                    <a>费玉清</a>
-                  </div>
-                </div>
-              </div>
-          </div>
-          <div class="four wide column"></div>
-          <div class="four wide column"></div>
-          <div class="four wide column"></div>
-          <div class="four wide column"></div>
-          <div class="four wide column"></div>
-          <div class="four wide column"></div>
         </div>
-      </div>
-    </div>
+        <div class="twelve wide column">
+            <div class="ui basic segment">
+                <div class="ui grid container">
+                  <div class="four wide column">
+                    <div class="ui card">
+                      <div class="ui centered small image">
+                        <img
+                          src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565901676716&di=1c6b0a2d0d95b279377b1655da142872&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fent%2Fy%2Fd%2F2010-05-10%2FU1819P28T3D2953478F326DT20100510182128.jpg">
+                      </div>
+                      <div class="content">
+                        <div class="header">天之大</div>
+                        <div class="meta">
+                          <a>费玉清</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="four wide column">
+                      <div class="ui card">
+                        <div class="ui centered small image">
+                          <img
+                            src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565901676716&di=1c6b0a2d0d95b279377b1655da142872&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fent%2Fy%2Fd%2F2010-05-10%2FU1819P28T3D2953478F326DT20100510182128.jpg">
+                        </div>
+                        <div class="content">
+                          <div class="header">天之大</div>
+                          <div class="meta">
+                            <a>费玉清</a>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="four wide column"></div>
+                  <div class="four wide column"></div>
+                  <div class="four wide column"></div>
+                  <div class="four wide column"></div>
+                  <div class="four wide column"></div>
+                  <div class="four wide column"></div>
+                </div>
+              </div>
+        </div>
+
+
   </div>
 
   <!--
