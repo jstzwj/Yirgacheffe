@@ -114,21 +114,13 @@
               </div>
         </div>
         <div class="twelve wide column">
-          <div class="ui six stackable cards">
-            <div class="card">
-              <div class="ui centered small image">
-                <img
-                  src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565901676716&di=1c6b0a2d0d95b279377b1655da142872&imgtype=0&src=http%3A%2F%2Fi2.sinaimg.cn%2Fent%2Fy%2Fd%2F2010-05-10%2FU1819P28T3D2953478F326DT20100510182128.jpg">
-              </div>
+          <div class="ui list">
+            <div class="item">
+              <img class="ui avatar image" src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1565973165266&di=9c81eb5f94e2abca02c24b4c7045d3a7&imgtype=0&src=http%3A%2F%2Fpic.makepolo.net%2Fnews%2Fallimg%2F20170106%2F1483708754711420.jpg">
               <div class="content">
-                <div class="header">天之大</div>
-                <div class="meta">
-                  <a>费玉清</a>
-                </div>
+                <a class="header">周杰伦</a>
               </div>
             </div>
-          </div>
-
         </div>
     </div>
 
