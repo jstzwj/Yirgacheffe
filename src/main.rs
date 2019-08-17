@@ -13,5 +13,5 @@ use rocket_contrib::templates::Template;
 fn main() {
     rocket::ignite()
         .attach(Template::fairing())
-        .mount("/", routes![web::handler::index]).launch();
+        .mount("/", routes![web::handler::index, web::handler::files]).launch();
 }
