@@ -10,10 +10,12 @@ Vue.use(ElementUI);
 Vue.config.productionTip = false
 
 import Albums from './views/Albums.vue'
+import Artists from './views/Artists.vue'
 
 const routes = [
   { path: '/', component: Albums },
   { path: '/Albums', component: Albums },
+  { path: '/Artists', component: Artists },
 ]
 
 

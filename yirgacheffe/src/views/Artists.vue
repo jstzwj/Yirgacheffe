@@ -1,25 +1,38 @@
 <template>
-    <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
-        <el-menu-item index="1">处理中心</el-menu-item>
-        <el-submenu index="2">
-            <template slot="title">我的工作台</template>
-            <el-menu-item index="2-1">选项1</el-menu-item>
-            <el-menu-item index="2-2">选项2</el-menu-item>
-            <el-menu-item index="2-3">选项3</el-menu-item>
-            <el-submenu index="2-4">
-            <template slot="title">选项4</template>
-            <el-menu-item index="2-4-1">选项1</el-menu-item>
-            <el-menu-item index="2-4-2">选项2</el-menu-item>
-            <el-menu-item index="2-4-3">选项3</el-menu-item>
-            </el-submenu>
-        </el-submenu>
-        <el-menu-item index="3" disabled>消息中心</el-menu-item>
-        <el-menu-item index="4"><a href="https://www.ele.me" target="_blank">订单管理</a></el-menu-item>
-    </el-menu>
+    <div>
+        <nav-menu></nav-menu>
+        <el-row :gutter="10" class="artists_layout">
+            <el-col :xs="4" :sm="4" :md="4" :lg="4" :xl="4">
+                <sidebar></sidebar>
+            </el-col>
+            <el-col :xs="20" :sm="20" :md="20" :lg="20" :xl="20">
+                <artists-list></artists-list>
+            </el-col>
+        </el-row>
+        
+    </div>
+    
 </template>
 
 <script>
+import NavMenu from '../components/NavMenu'
+import Sidebar from '../components/Sidebar'
+import ArtistsList from '../components/ArtistsList'
+
 export default {
-  name: 'Albums'
+  name: 'Artists',
+  components: {
+    'nav-menu': NavMenu,
+    'sidebar': Sidebar,
+    'artists-list': ArtistsList
+  }
 }
 </script>
+
+
+<style scoped>
+    .artists_layout{
+        height: 100%; 
+        position: relative;
+    }
+</style>
