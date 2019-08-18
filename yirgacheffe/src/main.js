@@ -9,13 +9,72 @@ Vue.use(ElementUI);
 
 Vue.config.productionTip = false
 
-import Albums from './views/Albums.vue'
-import Artists from './views/Artists.vue'
+import Library from './views/Library'
+import ArtistsList from './components/ArtistsList'
+import AlbumsList from './components/AlbumsList'
+import SongsList from './components/SongsList'
 
 const routes = [
-  { path: '/', component: Albums },
-  { path: '/Albums', component: Albums },
-  { path: '/Artists', component: Artists },
+  {
+    path: '/',
+    component: Library,
+    children:[
+      {
+        path: '',
+        components: {
+          default: AlbumsList
+        }
+      }
+    ]
+  },
+  {
+    path: '/Albums',
+    component: Library,
+    children:[
+      {
+        path: '',
+        components: {
+          default: AlbumsList
+        }
+      }
+    ]
+  },
+  {
+    path: '/Artists',
+    component: Library,
+    children:[
+      {
+        path: '',
+        components: {
+          default: ArtistsList
+        }
+      }
+    ]
+  },
+  {
+    path: '/Songs',
+    component: Library,
+    children:[
+      {
+        path: '',
+        components: {
+          default: SongsList
+        }
+      }
+    ]
+  },
+  {
+    path: '/Welcome',
+    component: Library,
+    children:[
+      {
+        path: '',
+        components: {
+          default: ArtistsList
+        }
+      }
+    ]
+  },
 ]
 
 
